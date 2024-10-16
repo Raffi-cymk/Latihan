@@ -1,0 +1,33 @@
+Inisialisasi Variabel
+
+Boo = None 
+
+# Loop tanpa henti
+
+While True:
+
+ # Input dari pengguna
+
+ Noo = int(input(“Masukan Bilangan mu: “))
+
+ 
+
+ # Cek apakah input adalah 0
+
+ If noo == 0:
+
+ Break # Keluar dari loop jika input 0
+
+ 
+
+ # Jika boo masih None atau noo lebih besar dari boo
+
+ If boo is None or noo > boo:
+
+ Boo = noo # Update nilai boo
+
+ 
+
+# Menampilkan hasil
+
+Print(“Bilangan Terbesar adalah:”, boo)
